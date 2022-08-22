@@ -1,6 +1,6 @@
 {% set org = "tdegeus" %}
 {% set name = "GMatElastoPlastic" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}-split
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/{{ org }}/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: a724d3dfaefa8d729babc09373de9de22946305bb8954911e772dcd7efc2f1e4
+  sha256: 479f434d26bc4445dbd5b9f98c7c04ded0f14f007b6a9f55b0cdf7116a77aa66
 
 build:
   number: 0
